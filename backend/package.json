@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "fastify backend for react chat app",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/auth": "^4.2.0",
+    "@fastify/cors": "^8.2.0",
+    "@fastify/jwt": "^6.5.0",
+    "@fastify/postgres": "^5.2.0",
+    "bcrypt": "^5.1.0",
+    "fastify": "^4.13.0",
+    "pg": "^8.9.0",
+    "sequelize-fastify": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
